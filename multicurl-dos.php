@@ -43,7 +43,7 @@ ini_set('memory_limit', '-1');
         CURLOPT_HTTPGET         => true,
         CURLOPT_HTTPHEADER      => $headers,
         CURLOPT_HTTPPROXYTUNNEL => true,
-		CURLOPT_PROXY           => '',
+	CURLOPT_PROXY           => '',
         CURLOPT_PROXYPORT       => '',
         CURLOPT_PROXYTYPE       => 7,
         CURLOPT_PROXYUSERPWD    => '',
