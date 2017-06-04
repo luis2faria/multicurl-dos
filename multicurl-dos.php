@@ -13,7 +13,7 @@ RandomString();
 
 $domain = null;
 $quantity = null;
-$args['referer'] = 'https://google.com/?q='.RandomString();
+$args['referer'] = 'https://google.com/?q='.RandomString().RandomString().RandomString().'+'.RandomString().RandomString();
 
 if ( isset( $argv[1] ) ) {
     $domain = $argv[1];
